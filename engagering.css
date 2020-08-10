@@ -330,23 +330,23 @@ body{
     .header{
     height: 17px;
     }
-    .logo{
-        font-size: 1px;
+   .logo{
+        font-size: 13px;
         padding: 0;
         margin: 2px 0 0 0;
     }
     .logo_job{
-        font-size: 0px;
-        margin-top: 0px;
+        font-size: 5px;
+        margin-top: 10px;
         margin-right: 0px;
     }
     .header ul{
         padding: 0;
     }
     .header li{
-        font-size: 1px;
-        padding:2px 3px 0px 0px;
-        }
+        font-size: 13px;
+        padding:0px 5px 0px 0px;
+    }
         .header_ring{
             margin-top: 0;
         }
@@ -357,8 +357,8 @@ body{
         }
         .header_ring li{
             display: inline-block;
-        font-size: 1px;
-            padding: 0;
+        font-size: 11px;
+            padding: 2px;
         }
         .title p{
             font-size: 18px;
