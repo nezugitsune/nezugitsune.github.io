@@ -1,0 +1,371 @@
+*{
+  box-sizing:border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+    background-color:black;
+    height: 40px;
+}
+.logo{
+    float: right;
+    color:silver;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+.logo_job{
+    float: right;
+    color:silver;
+    font-size: 14px;
+    margin-top: 18px;
+    font-style: oblique;
+    }
+.header a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.header li{
+    list-style: none;
+    float: left;
+        padding:10px;
+    color:whitesmoke;
+    font-size: 17px;
+}
+.header_ring{
+    height: 40px;
+    text-align: center;
+    color:gray;
+    font-size: 17px;
+}
+.header_ring li{
+    display: inline-block;
+    padding:10px
+}
+.header_ring a{
+    text-decoration: none;
+    color:gray;
+}
+.wildcrystal_text{
+    position: relative;
+    text-align: center;
+    color: gray;
+}
+.wildcrystal_text p{
+    position: absolute;
+    top:0%;
+    right: 3%;
+    line-height: 40px;
+    text-shadow: 0.5px 0.5px 0px white;
+    font-size: 18px;
+}
+.title{
+    text-align: center;
+}
+.title p{
+    display: inline-block;
+    color:gray;
+    font-style: oblique;
+    font-size: 30px;
+}
+.wildcrystal_text img{
+    width: 100%;
+}
+.footer p{
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    color:silver;
+}
+.lang ul{
+        margin-right: 10px;
+    }
+.lang li{
+    float: right;
+    list-style: none;
+    color:silver;
+    text-shadow: 1px 1px 0px black;
+    font-size: 25px;
+}
+.lang a{
+    text-decoration: none;
+    color:silver;
+    text-shadow: 1px 1px 0px black;
+}
+.lang span{
+    margin-right: 10px;
+}
+@media (max-width:1024px) {
+    boby{
+        width: 100%;
+    }
+     .header{
+    height: 29px;
+    }
+    .logo{
+        font-size: 29px;
+        margin-top: -6px;
+    }
+    .logo_job{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size:15px;
+        padding:4px 7px 0px 0px;
+    }
+     .header_ring{
+            margin-top: 30px;
+        }
+        .header_ring ul{
+            text-align: center;
+            padding: 0;
+        }
+        .header_ring li{
+            display: inline-block;
+        font-size: 20px;
+        }
+        .title p{
+            font-size: 30px;
+        }
+        .wildcrystal_text p{
+         font-size:18px;
+            line-height: 40px;
+        }
+        
+}
+@media (max-width:896px) {
+  body{
+    width:100%;
+  } 
+        .header{
+    height: 29px;
+    }
+    .logo{
+        font-size: 29px;
+        margin-top: -6px;
+    }
+    .logo_job{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size:15px;
+        padding:4px 7px 0px 0px;
+    }
+     .header_ring{
+            margin-top: 30px;
+        }
+        .header_ring ul{
+            text-align: center;
+            padding: 0;
+        }
+        .header_ring li{
+            display: inline-block;
+        font-size: 19px;
+        }
+        .title p{
+            font-size: 28px;
+        }
+        .wildcrystal_text p{
+         font-size:18px;
+            line-height: 40px;
+        }
+        }
+
+    @media (max-width:736px) {
+  body{
+    width:100%;
+  } 
+        .header{
+    height: 29px;
+    }
+    .logo{
+        font-size: 27px;
+        margin-top: -6px;
+    }
+    .logo_job{
+        font-size: 13px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size:15px;
+        padding:4px 7px 0px 0px;
+    }
+        .header_ring{
+            margin-top: 30px;
+        }
+        .header_ring ul{
+            text-align: center;
+            padding: 0;
+        }
+        .header_ring li{
+            display: inline-block;
+        font-size: 17px;
+        }
+        .title p{
+            font-size: 25px;
+        }
+        .wildcrystal_text p{
+         font-size:16px;
+            line-height: 40px;
+        }
+        }
+        
+    @media (max-width:667px) {
+  body{
+    width:100%;
+  } 
+        .header{
+    height: 29px;
+    }
+    .logo{
+        font-size: 22px;
+        margin-top: 1px;
+    }
+    .logo_job{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size:14px;
+        padding:6px 7px 0px 0px;
+    }
+    .header_ring{
+            margin-top: 30px;
+        }
+        .header_ring ul{
+            text-align: center;
+            padding: 0;
+        }
+        .header_ring li{
+            display: inline-block;
+        font-size: 13px;
+        }
+        .title p{
+            font-size: 20px;
+        }
+        .wildcrystal_text p{
+         font-size:13px;
+            line-height: 40px;
+        }
+.lang li{
+    font-size: 16px;
+}
+        }
+        
+    @media (max-width:568px) {
+  body{
+    width:100%;
+  } 
+        .header{
+    height: 20px;
+    }
+    .logo{
+        font-size: 19px;
+        margin-top: -4px;
+    }
+    .logo_job{
+        font-size: 11px;
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size:12px;
+        padding:2px 7px 0px 0px;
+        }
+     .header_ring{
+            margin-top: 30px;
+        }
+        .header_ring ul{
+            text-align: center;
+            padding: 0;
+        }
+        .header_ring li{
+            display: inline-block;
+        font-size: 11px;
+        }
+        .title p{
+            font-size: 20px;
+        }
+        .wildcrystal_text p{
+         font-size:2px;
+            line-height: 25px;
+        }
+.lang li{
+    font-size: 15px;
+}
+}
+    @media (max-width:480px) {
+  body{
+    width:100%;
+  }
+    .header{
+    height: 17px;
+    }
+    .logo{
+        font-size: 1px;
+        padding: 0;
+        margin: 2px 0 0 0;
+    }
+    .logo_job{
+        font-size: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size: 1px;
+        padding:2px 3px 0px 0px;
+        }
+        .header_ring{
+            margin-top: 0;
+        }
+        .header_ring ul{
+            text-align: center;
+         margin-top: 11px;
+            padding: 0;
+        }
+        .header_ring li{
+            display: inline-block;
+        font-size: 1px;
+            padding: 0;
+        }
+        .title p{
+            font-size: 18px;
+        }
+        .wildcrystal_text p{
+         font-size: 1px;
+            line-height: 20px;
+    top:0%;
+    left: 0%;
+        }
+.lang li{
+    font-size: 13px;
+}
+    .lang span{
+        font-size: 1px;
+    }
+}
