@@ -364,6 +364,9 @@ body{
          font-size: 13px;
             line-height: 20px;
         }
+      .lang{
+		margin-bottom:30px;
+	}
 .lang li{
     font-size: 13px;
 }
