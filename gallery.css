@@ -398,9 +398,9 @@ body{
         margin: 2px 0 0 0;
     }
     .logo_job{
-        font-size: 8px;
-        margin-top: 5px;
-        margin-right: 5px;
+        font-size: 5px;
+        margin-top: 10px;
+        margin-right: 0px;
     }
     .header ul{
         padding: 0;
@@ -408,7 +408,7 @@ body{
     .header li{
         font-size: 13px;
         padding:0px 5px 0px 0px;
-        }
+    }
         .header_ring{
             margin-top: 0;
         }
