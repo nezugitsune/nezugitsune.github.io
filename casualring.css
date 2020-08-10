@@ -40,7 +40,8 @@ body{
 }
 .header_ring li{
     display: inline-block;
-    padding:10px
+    padding:10px 10px 0px 10px;
+    border-bottom: dotted 1px gray;
 }
 .header_ring a{
     text-decoration: none;
