@@ -419,7 +419,7 @@ body{
         }
         .header_ring li{
             display: inline-block;
-        font-size: 12px;
+        font-size: 10px;
             padding: 3px;
         }
         .title p{
