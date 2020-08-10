@@ -347,7 +347,7 @@ body{
     }
     .header li{
         font-size: 13px;
-        padding:2px 3px 0px 0px;
+        padding:2px 5px 0px 0px;
     }
     .etsy2020_1{
         text-align: center;
@@ -421,6 +421,6 @@ body{
     font-size: 13px;
 }
     .lang span{
-        font-size: 13px;
+        font-size: 5px;
     }
 }
