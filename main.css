@@ -417,6 +417,9 @@ body{
     .texts4{
         order: 1;
     }
+	.lang{
+		margin-bottom:10px;
+	}
 .lang li{
     font-size: 13px;
 }
