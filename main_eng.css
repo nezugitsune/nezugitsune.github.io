@@ -332,22 +332,22 @@ body{
     .header{
     height: 17px;
     }
-    .logo{
-        font-size: 1px;
+     .logo{
+        font-size: 13px;
         padding: 0;
         margin: 2px 0 0 0;
     }
     .logo_job{
-        font-size: 0px;
-        margin-top: 0px;
+        font-size: 5px;
+        margin-top: 10px;
         margin-right: 0px;
     }
     .header ul{
         padding: 0;
     }
     .header li{
-        font-size: 1px;
-        padding:2px 3px 0px 0px;
+        font-size: 13px;
+        padding:0px 5px 0px 0px;
     }
     .etsy2020_1{
         text-align: center;
@@ -421,6 +421,6 @@ body{
     font-size: 13px;
 }
     .lang span{
-        font-size: 1px;
+        font-size: 10px;
     }
 }
