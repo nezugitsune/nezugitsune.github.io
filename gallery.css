@@ -440,6 +440,9 @@ body{
              width: 100%;
             height: 100%;
         }
+      .lang{
+		margin-bottom:30px;
+	}
 .lang li{
     font-size: 13px;
 }
