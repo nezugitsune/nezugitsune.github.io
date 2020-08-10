@@ -419,8 +419,8 @@ body{
         }
         .header_ring li{
             display: inline-block;
-        font-size: 10px;
-            padding: 3px;
+        font-size: 11px;
+            padding: 2px;
         }
         .title p{
             font-size: 18px;
