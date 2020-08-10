@@ -1,0 +1,100 @@
+*{
+  box-sizing:border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body{
+    width: 100%;
+    background-image:url(img/b.g.enter.JPG);
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    text-align: center;
+}
+ a{
+    color:whitesmoke;
+     text-shadow: 1px 1px 0px black;
+    text-decoration: none;
+}
+.lang li{
+    float: right;
+    list-style: none;
+    color:whitesmoke;
+    font-size: 30px;
+}
+
+.main h1{
+    color:whitesmoke;
+    font-size: 40px;
+    margin-top:10px;
+}
+.main p{
+    color:whitesmoke;
+    line-height:300%;
+    font-size: 28px;
+}
+.btn{
+    color:whitesmoke;
+    display:inline-block;
+    font-size: 40px;
+}
+
+@media (max-width:1024px) {
+    .main h1{
+        font-size: 45px;
+        text-shadow: 1px 1px 0px black;
+    }
+    .main p{
+        font-size: 28px;
+        text-shadow: 1px 1px 0px black;
+    }
+  }
+@media (max-width:812px) {
+    .main h1{
+        font-size: 38px;
+        text-shadow: 1px 1px 0px black;
+    }
+    .main p{
+        font-size: 20px;
+        text-shadow: 1px 1px 0px black;
+    }
+  }
+@media (max-width:768px) {
+    .main h1{
+        font-size: 38px;
+        text-shadow: 1px 1px 0px black;
+    }
+    .main p{
+        font-size: 20px;
+        text-shadow: 1px 1px 0px black;
+    }
+  }
+@media (max-width:670px) {
+    .main h1{
+        font-size: 30px;
+        text-shadow: 1px 1px 0px black;
+    }
+    .main p{
+        font-size: 17px;
+        text-shadow: 1px 1px 0px black;
+    }
+  }
+@media (max-width:320px) {
+    .main h1{
+        font-size: 20px;
+        margin: 0px;
+        text-shadow: 1px 1px 0px black;
+    }
+    .main p{
+        font-size: 17px;
+        text-shadow: 1px 1px 0px black;
+    }
+    .lang li{
+        font-size: 20px;
+    }
+  }
