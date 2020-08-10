@@ -351,8 +351,8 @@ body{
         }
         .header_ring li{
             display: inline-block;
-        font-size: 11px;
-            padding: 2px;
+        font-size: 10px;
+            padding: 1px;
         }
         .title p{
             font-size: 18px;
