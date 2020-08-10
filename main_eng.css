@@ -1,0 +1,426 @@
+*{
+  box-sizing:border-box;
+}
+.container{
+    width: 100%;
+}
+.header{
+    background-color:black;
+    height: 40px;
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+
+.logo{
+    float: right;
+    color:silver;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+.logo_job{
+    float: right;
+    color:silver;
+    font-size: 14px;
+    margin-top: 18px;
+    font-style: oblique;
+    }
+.header a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.header li{
+    list-style: none;
+    float: left;
+        padding:10px;
+    color:whitesmoke;
+    font-size: 17px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.etsy2020_1{
+    
+    float: right;
+}
+.texts1{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.etsy2020_1 h1{
+     font-size: 38px;
+}
+.etsy2020_1 p{
+     font-size: 30px;
+}
+.etsy2020_1 img{
+    width: 650px;
+    vertical-align: middle;
+}
+.bgring{
+    
+ float: left;
+}
+.texts2{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.bgring h1{
+    font-size: 50px;
+}
+.bgring p{
+    font-size: 29px;
+}
+.bgring img{
+    width: 650px;
+    vertical-align: middle;
+}
+.cbring{
+    float: right;
+    margin-bottom: 50px;
+}
+.texts3{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.cbring h1{
+    font-size: 50px;
+}
+.cbring p{
+    font-size: 30px;
+}
+.cbring img{
+    width: 650px;
+    vertical-align: middle;
+}
+.casual{
+    float: left;
+}
+.texts4{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.casual h1{
+    font-size: 50px;
+}
+.casual p{
+    font-size: 30px;
+}
+.casual img{
+    width: 650px;
+    vertical-align: middle;
+}
+
+.footer p{
+    height: 20px;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+    color:silver;
+}
+.lang ul{
+        margin-right: 10px;
+    }
+.lang li{
+    float: right;
+    list-style: none;
+    color:silver;
+    text-shadow: 1px 1px 0px black;
+    font-size: 25px;
+}
+.lang a{
+    text-decoration: none;
+    color:silver;
+    text-shadow: 1px 1px 0px black;
+}
+.lang span{
+    margin-right: 10px;
+}
+
+@media (max-width:1024px) {
+  .container{
+    width:100%;
+  } 
+        .header{
+    height: 29px;
+    }
+    .logo{
+        font-size: 29px;
+        margin-top: -6px;
+    }
+    .logo_job{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size:15px;
+        padding:4px 7px 0px 0px;
+    }
+    .texts1 h1,.texts2 h1,.texts3 h1,.texts4 h1{
+        font-size: 25px;
+    }
+    .texts1 p,.texts2 p,.texts3 p,.texts4 p{
+        font-size: 18px;
+    }
+
+    .etsy2020_1 img,.bgring img,.cbring img,.casual img{
+        width: 500px;
+}   
+}
+
+@media (max-width:896px) {
+  .container{
+    width:100%;
+  } 
+        .header{
+    height: 29px;
+    }
+    .logo{
+        font-size: 29px;
+        margin-top: -6px;
+    }
+    .logo_job{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size:15px;
+        padding:4px 7px 0px 0px;
+    }
+    .texts1 h1,.texts2 h1,.texts3 h1,.texts4 h1{
+        font-size: 19px;
+    }
+    .texts1 p,.texts2 p,.texts3 p,.texts4 p{
+        font-size: 15px;
+    }
+
+    .etsy2020_1 img,.bgring img,.cbring img,.casual img{
+        width: 400px;
+}
+}
+
+@media (max-width:736px) {
+  .container{
+    width:100%;
+  } 
+        .header{
+    height: 29px;
+    }
+    .logo{
+        font-size: 27px;
+        margin-top: -6px;
+    }
+    .logo_job{
+        font-size: 13px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size:15px;
+        padding:4px 7px 0px 0px;
+    }
+    .texts1 h1,.texts2 h1,.texts3 h1,.texts4 h1{
+        font-size: 17px;
+    }
+    .texts1 p,.texts2 p,.texts3 p,.texts4 p{
+        font-size: 13px;
+    }
+
+    .etsy2020_1 img,.bgring img,.cbring img,.casual img{
+        width: 400px;
+}   
+}
+
+@media (max-width:667px) {
+  .container{
+    width:100%;
+  } 
+        .header{
+    height: 29px;
+    }
+    .logo{
+        font-size: 22px;
+        margin-top: 1px;
+    }
+    .logo_job{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size:14px;
+        padding:6px 7px 0px 0px;
+    }
+    .texts1 h1,.texts2 h1,.texts3 h1,.texts4 h1{
+        font-size: 17px;
+    }
+    .texts1 p,.texts2 p,.texts3 p,.texts4 p{
+        font-size: 13px;
+    }
+
+    .etsy2020_1 img,.bgring img,.cbring img,.casual img{
+        width: 350px;
+      }
+.lang li{
+    font-size: 16px;
+}
+}
+
+@media (max-width:568px) {
+  .container{
+    width:100%;
+  } 
+        .header{
+    height: 20px;
+    }
+    .logo{
+        font-size: 19px;
+        margin-top: -4px;
+    }
+    .logo_job{
+        font-size: 11px;
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size:12px;
+        padding:2px 7px 0px 0px;
+    }
+    .texts1 h1,.texts2 h1,.texts3 h1,.texts4 h1{
+        font-size: 17px;
+    }
+    .texts1 p,.texts2 p,.texts3 p,.texts4 p{
+        font-size: 13px;
+    }
+
+    .etsy2020_1 img,.bgring img,.cbring img,.casual img{
+        width: 250px;
+      }
+.lang li{
+    font-size: 15px;
+}
+}
+
+@media (max-width:480px) {
+  .container{
+    width:100%;
+  }
+    .header{
+    height: 17px;
+    }
+    .logo{
+        font-size: 1px;
+        padding: 0;
+        margin: 2px 0 0 0;
+    }
+    .logo_job{
+        font-size: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .header ul{
+        padding: 0;
+    }
+    .header li{
+        font-size: 1px;
+        padding:2px 3px 0px 0px;
+    }
+    .etsy2020_1{
+        text-align: center;
+    }
+    .texts4 {
+        clear: left;
+    }
+    .casual {
+        margin: 0 auto;
+    }
+    .texts1 h1,.texts2 h1,.texts3 h1,.texts4 h1{
+        font-size: 20px;
+    }
+    .texts1 p,.texts2 p,.texts3 p,.texts4 p{
+        font-size: 13px;
+    }
+
+    img {
+	max-width: 100%;
+	height: auto;
+}
+    
+    .etsy2020_1 img{
+        width: 100%;
+    }
+    .etsyorder{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bgring img{
+        width: 100%;
+    }
+    .bgorder{
+        display: flex;
+        flex-direction:column;
+    }
+    .bgorder img
+    {
+        order: 2;
+    }
+    .text2{
+        order: 1;
+    }  
+   
+  
+    .cbring img{
+        width: 100%;
+    }
+    .cborder{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .casual img{
+        width: 100%;
+    }
+    
+    .casualorder{
+        display: flex;
+        flex-direction:column;
+    }
+    .casualorder img{
+        order: 2;
+    }
+    .texts4{
+        order: 1;
+    }
+.lang li{
+    font-size: 13px;
+}
+    .lang span{
+        font-size: 1px;
+    }
+}
